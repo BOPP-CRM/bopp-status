@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1717,
-    "timeDay": 1717,
-    "timeWeek": 1717,
-    "timeMonth": 1717,
-    "timeYear": 1717,
+    "time": 1097,
+    "timeDay": 1097,
+    "timeWeek": 1097,
+    "timeMonth": 1097,
+    "timeYear": 1097,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 622,
-    "timeDay": 622,
-    "timeWeek": 622,
-    "timeMonth": 622,
-    "timeYear": 622,
+    "time": 372,
+    "timeDay": 372,
+    "timeWeek": 372,
+    "timeMonth": 372,
+    "timeYear": 372,
     "dailyMinutesDown": {}
   },
   {
@@ -40,19 +40,19 @@
     "url": "$ODOO_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "bopp-odoo",
-    "status": "down",
-    "uptime": "50.88%",
-    "uptimeDay": "50.88%",
-    "uptimeWeek": "50.88%",
-    "uptimeMonth": "50.88%",
-    "uptimeYear": "50.88%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
+    "status": "up",
+    "uptime": "3.93%",
+    "uptimeDay": "3.93%",
+    "uptimeWeek": "3.93%",
+    "uptimeMonth": "3.93%",
+    "uptimeYear": "3.93%",
+    "time": 3366,
+    "timeDay": 3366,
+    "timeWeek": 3366,
+    "timeMonth": 3366,
+    "timeYear": 3366,
     "dailyMinutesDown": {
-      "2026-10-02": 0
+      "2026-10-02": 6
     }
   }
 ]
