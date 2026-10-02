@@ -24,7 +24,6 @@ status-website:
     :root {
       --body-background-color: #f4f6f9;
       --up-border-left-color: #ff7e00;
-      --card-border-color: #ff9a33;
       --body-text-color: #1a2b42;
     }
 
