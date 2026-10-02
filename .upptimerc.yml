@@ -22,12 +22,10 @@ status-website:
   theme: light
   css: |
     :root {
-      --body-background-color: #001b44;
-      --nav-background-color: #ffffff;
-      --card-background-color: #0a2a5c;
-      --nav-current-border-bottom-color: #ff7e00;
-      --link-color: #ff9a33;
+      --body-background-color: #f4f6f9;
       --up-border-left-color: #ff7e00;
+      --card-border-color: #ff9a33;
+      --body-text-color: #1a2b42;
     }
 
 
