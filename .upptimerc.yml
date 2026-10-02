@@ -15,16 +15,11 @@ sites:
 status-website:
   cname: status.bopp.digital
   name: BOPP Status
-  logoUrl: https://www.bopp.digital/logo-mark-light.png
-  favicon: https://www.bopp.digital/logo-mark-light.png
+  logoUrl: https://raw.githubusercontent.com/BOPP-CRM/bopp-status/master/assets/bopp.png
+  favicon: https://raw.githubusercontent.com/BOPP-CRM/bopp-status/master/assets/bopp.png
   introTitle: "**สถานะระบบ BOPP**"
-  introMessage: ติดตามสถานะการให้บริการของระบบ BOPP แบบเรียลไทม์ หากพบปัญหาติดต่อทีมงานได้ที่ [bopp.digital](https://bopp.digital)
+  introMessage: ติดตามสถานะการให้บริการของระบบ BOPP แบบเรียลไทม์
   theme: dark
-  navbar:
-    - title: สถานะ
-      href: /
-    - title: เว็บไซต์ BOPP
-      href: https://bopp.digital
   css: |
     :root {
       --body-background-color: #001b44;
