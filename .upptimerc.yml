@@ -19,9 +19,9 @@ status-website:
   name: BOPP Status
   introTitle: "**BOPP System Status**"
   introMessage: ติดตามสถานะการให้บริการของระบบ BOPP แบบเรียลไทม์
-  navbar:
-    - title: Status
-      href: /
+  # navbar:
+  #   - title: Status
+  #     href: /
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
