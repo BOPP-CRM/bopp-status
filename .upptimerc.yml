@@ -19,7 +19,7 @@ status-website:
   favicon: https://raw.githubusercontent.com/BOPP-CRM/bopp-status/master/assets/bopp.png
   introTitle: "**สถานะระบบ BOPP**"
   introMessage: ติดตามสถานะการให้บริการของระบบ BOPP แบบเรียลไทม์
-  theme: dark
+  theme: light
   css: |
     :root {
       --body-background-color: #001b44;
@@ -29,7 +29,7 @@ status-website:
       --link-color: #ff9a33;
     }
     a:hover { color: #ff7e00; }
-    .navbar-brand { color: #ff7e00 !important; }
+    .navbar-brand, .navbar-brand span, nav a, nav a span { color: #ff7e00 !important; }
     .border-success { border-color: #ff7e00 !important; }
     .badge.bg-success, .bg-success { background-color: #ff7e00 !important; }
 
