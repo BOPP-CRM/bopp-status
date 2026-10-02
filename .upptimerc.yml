@@ -1,27 +1,42 @@
-# Change these first
-owner: BOPP-CRM # Your GitHub organization or username, where this repository lives
-repo: bopp-status # The name of this repository
+owner: BOPP-CRM
+repo: bopp-status
 
 sites:
   - name: Bopp Portal
-    url: https://portal-dev.bopp.digital
+    url: https://portal.bopp.digital
+    maxResponseTime: 3000
   - name: Bopp CRM
-    url: https://crm-dev.bopp.digital
+    url: https://crm.bopp.digital
+    maxResponseTime: 3000
   - name: Bopp Odoo
     url: $ODOO_URL
+    maxResponseTime: 5000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.bopp.digital
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: BOPP Status
-  introTitle: "**BOPP System Status**"
-  introMessage: ติดตามสถานะการให้บริการของระบบ BOPP แบบเรียลไทม์
-  # navbar:
-  #   - title: Status
-  #     href: /
+  logoUrl: https://www.bopp.digital/logo-mark-light.png
+  favicon: https://www.bopp.digital/logo-mark-light.png
+  introTitle: "**สถานะระบบ BOPP**"
+  introMessage: ติดตามสถานะการให้บริการของระบบ BOPP แบบเรียลไทม์ หากพบปัญหาติดต่อทีมงานได้ที่ [bopp.digital](https://bopp.digital)
+  theme: dark
+  navbar:
+    - title: สถานะ
+      href: /
+    - title: เว็บไซต์ BOPP
+      href: https://bopp.digital
+  css: |
+    :root {
+      --body-background-color: #001b44;
+      --nav-background-color: #00122e;
+      --card-background-color: #0a2a5c;
+      --nav-current-border-bottom-color: #ff7e00;
+      --link-color: #ff9a33;
+    }
+    a:hover { color: #ff7e00; }
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+i18n:
+  allSystemsOperational: ระบบทั้งหมดทำงานปกติ
+  liveStatus: สถานะปัจจุบัน
+  overallUptime: "Uptime รวม: $UPTIME"
+  averageResponseTime: "เวลาตอบสนองเฉลี่ย: $TIME ms"
