@@ -23,15 +23,13 @@ status-website:
   css: |
     :root {
       --body-background-color: #001b44;
-      --nav-background-color: #00122e;
+      --nav-background-color: #ffffff;
       --card-background-color: #0a2a5c;
       --nav-current-border-bottom-color: #ff7e00;
       --link-color: #ff9a33;
+      --up-border-left-color: #ff7e00;
     }
-    a:hover { color: #ff7e00; }
-    .navbar-brand, .navbar-brand span, nav a, nav a span { color: #ff7e00 !important; }
-    .border-success { border-color: #ff7e00 !important; }
-    .badge.bg-success, .bg-success { background-color: #ff7e00 !important; }
+
 
 i18n:
   allSystemsOperational: ระบบทั้งหมดทำงานปกติ
