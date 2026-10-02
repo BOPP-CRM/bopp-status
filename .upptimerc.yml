@@ -29,6 +29,9 @@ status-website:
       --link-color: #ff9a33;
     }
     a:hover { color: #ff7e00; }
+    .navbar-brand { color: #ff7e00 !important; }
+    .border-success { border-color: #ff7e00 !important; }
+    .badge.bg-success, .bg-success { background-color: #ff7e00 !important; }
 
 i18n:
   allSystemsOperational: ระบบทั้งหมดทำงานปกติ
