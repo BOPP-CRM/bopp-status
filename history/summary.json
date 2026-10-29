@@ -40,19 +40,20 @@
     "url": "$ODOO_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "bopp-odoo",
-    "status": "degraded",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 3143,
-    "timeDay": 3637,
-    "timeWeek": 3146,
-    "timeMonth": 3143,
-    "timeYear": 3143,
+    "status": "up",
+    "uptime": "99.41%",
+    "uptimeDay": "84.23%",
+    "uptimeWeek": "97.75%",
+    "uptimeMonth": "99.41%",
+    "uptimeYear": "99.41%",
+    "time": 3132,
+    "timeDay": 3333,
+    "timeWeek": 3099,
+    "timeMonth": 3132,
+    "timeYear": 3132,
     "dailyMinutesDown": {
-      "2026-10-28": 0
+      "2026-10-29": 42,
+      "2026-10-28": 185
     }
   }
 ]
